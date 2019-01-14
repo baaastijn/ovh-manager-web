@@ -4813,6 +4813,9 @@ har-validator@~4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/har-validator/-/har-validator-4.2.1.tgz#33481d0f1bbff600dd203d75812a6a5fba002e2a"
   integrity sha1-M0gdDxu/9gDdID11gSpqX7oALio=
+  dependencies:
+    ajv "^4.9.1"
+    har-schema "^1.0.5"
 
 har-validator@~5.1.0:
   version "5.1.0"
@@ -7673,10 +7676,9 @@ ovh-module-exchange@^9.2.2:
     filesize "^3.6.1"
     lodash "~3.9.3"
 
-ovh-module-office@^7.0.4:
+"ovh-module-office@https://github.com/ovh-ux/ovh-module-office.git#fix/user-update":
   version "7.0.4"
-  resolved "https://registry.yarnpkg.com/ovh-module-office/-/ovh-module-office-7.0.4.tgz#d591c818a0a1f68854681b23684ce6afaa0dbc92"
-  integrity sha512-b1zLI5j38rEfE6ajr8cwPCQK7VVKL/cEI7hZSRHejkrZrIg8KngS+XyMgzVfd89fWKY5EZ08HAX8q5Kwd3PmAQ==
+  resolved "https://github.com/ovh-ux/ovh-module-office.git#a03e0a54f4bcc761ae2bb39772b3cb2b024b8a58"
   dependencies:
     angular "~1.6.10"
     jsurl "^0.1.4"
