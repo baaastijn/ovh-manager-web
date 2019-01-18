@@ -7673,10 +7673,9 @@ ovh-module-emailpro@^7.1.1:
     punycode "^1.2.4"
     validator "^4.0.0"
 
-ovh-module-exchange@^9.2.3:
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/ovh-module-exchange/-/ovh-module-exchange-9.2.3.tgz#c1481a0d52eb3642c544b94bde740be2548ba58a"
-  integrity sha512-vHcxg0JWtYdds+/q7xd6niWQyxciZlXvNmg+0gtH3a2nNfK77wpI19M+VaeBWNHSzS49+/dXvR8NHFeAQw+ZJQ==
+ovh-module-exchange@ovh-ux/ovh-module-exchange#feat/societyField:
+  version "9.2.4"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/58f4b48ebde38562536bd93188343065b57a3f0d"
   dependencies:
     filesize "^3.6.1"
     lodash "~3.9.3"
