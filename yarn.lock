@@ -7691,10 +7691,9 @@ ovh-module-office@^7.0.5:
     lodash "~3.9.3"
     moment "^2.16.0"
 
-ovh-module-sharepoint@^7.0.8:
+"ovh-module-sharepoint@https://github.com/ovh-ux/ovh-module-sharepoint#fix/label-translation":
   version "7.0.8"
-  resolved "https://registry.yarnpkg.com/ovh-module-sharepoint/-/ovh-module-sharepoint-7.0.8.tgz#33ce8ccc4807909f87e9cb0eabf66a72daa4a082"
-  integrity sha512-ey1VDmJ2I1EFZ+sV8hc472BoQd40sMNB4RshY1FH03fS36k0Jmw033dvPl6lLiherMeYTqWMwZZnCIf+IYIVzg==
+  resolved "https://github.com/ovh-ux/ovh-module-sharepoint#77b9eebba141a044b5c7157a7c60b9bca8ff1f92"
   dependencies:
     angular "~1.6.10"
     filesize "^3.5.10"
