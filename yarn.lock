@@ -7662,10 +7662,9 @@ ovh-manager-webfont@ovh-ux/ovh-manager-webfont#^1.0.1:
   version "1.0.2"
   resolved "https://codeload.github.com/ovh-ux/ovh-manager-webfont/tar.gz/1d759c46c8c3ead4bc5e887a2336abd124a17c58"
 
-ovh-module-emailpro@^7.1.1:
+ovh-module-emailpro@ovh-ux/ovh-module-emailpro#fix/changeWebmailURL:
   version "7.1.1"
-  resolved "https://registry.yarnpkg.com/ovh-module-emailpro/-/ovh-module-emailpro-7.1.1.tgz#f3cde747e106b9e07584cd06103fb427d4620a3d"
-  integrity sha512-fxAHK56hzVyJlKxWmY88KT8vSdvNn+Pxh8zbxhpsgZ5TeW1Z0VK703WPks502ecCWcY56oyiOMbEUCpVNtMNxQ==
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-emailpro/tar.gz/6d84dc97f90256a15c5f71d094c7cb763ed43b65"
   dependencies:
     angular "~1.6.10"
     lodash "~3.9.3"
