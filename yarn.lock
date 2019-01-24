@@ -7673,10 +7673,9 @@ ovh-module-emailpro@^7.1.1:
     punycode "^1.2.4"
     validator "^4.0.0"
 
-ovh-module-exchange@^9.2.4:
+ovh-module-exchange@ovh-ux/ovh-module-exchange#fix/changeWebmailURL:
   version "9.2.4"
-  resolved "https://registry.yarnpkg.com/ovh-module-exchange/-/ovh-module-exchange-9.2.4.tgz#791a216ec3fa7229db0f0819d35401d3481bd8e0"
-  integrity sha512-l0hTM7Pri2pRvnAEuqFY4H99YYi3bqFX+KhUwAN+YnHj5szB2tgimhyW86JX5M4t9HWvJ+hugEvIUTajjcClnQ==
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-exchange/tar.gz/9cf19dd5cbe8fb60819ad7fe833bded625cc9368"
   dependencies:
     filesize "^3.6.1"
     lodash "~3.9.3"
