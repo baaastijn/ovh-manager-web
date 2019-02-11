@@ -7695,10 +7695,9 @@ ovh-module-office@^7.0.6:
     lodash "~3.9.3"
     moment "^2.16.0"
 
-ovh-module-sharepoint@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/ovh-module-sharepoint/-/ovh-module-sharepoint-7.1.0.tgz#74d95d64c62fbf7d47459a85ab82e6568bfacaaf"
-  integrity sha512-hW0gZqC6Hgtvv6MJLYkKbdORquUNuT3dtCtEpioQuuQzzsVEhgpooq8z/Dga2U92hNg2bj8IiEO5pIXrjHmr0Q==
+ovh-module-sharepoint@ovh-ux/ovh-module-sharepoint#fix/order-for-subs:
+  version "7.1.1"
+  resolved "https://codeload.github.com/ovh-ux/ovh-module-sharepoint/tar.gz/b0a66a99903e5e352e98df25bac170203a8932bf"
   dependencies:
     angular "~1.6.10"
     filesize "^3.5.10"
