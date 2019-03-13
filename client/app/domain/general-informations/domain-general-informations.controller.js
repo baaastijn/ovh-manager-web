@@ -1,6 +1,4 @@
-angular.module('App').controller(
-  'DomainTabGeneralInformationsCtrl',
-  class DomainTabGeneralInformationsCtrl {
+export default class DomainTabGeneralInformationsCtrl {
     constructor(
       $q,
       $rootScope,
@@ -511,5 +509,8 @@ angular.module('App').controller(
     static parseType(type) {
       return type.replace(/\+/g, '-');
     }
-  },
+}
+
+angular.module('App').controller(
+  'DomainTabGeneralInformationsCtrl', DomainTabGeneralInformationsCtrl,
 );
