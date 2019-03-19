@@ -1,0 +1,40 @@
+<div>
+    <oui-back-button>
+        <span data-translate="domain_email_obfuscation_back_button"></span>
+    </oui-back-button>
+
+    <form
+        name="emailObfuscationRefreshForm"
+        data-ng-submit="emailObfuscationRefreshForm.$valid && $ctrl.regenerateEmails()"
+        novalidate>
+        <p class="h5 mb-2" data-translate="domain_email_obfuscation_label"></p>
+
+        <div class="text-center">
+            <oui-spinner data-size="m" data-ng-if="$ctrl.loading.contacts"></oui-spinner>
+        </div>
+
+        <div
+            data-ng-if="!$ctrl.loading.contacts"
+            class="oui-field"
+            data-ng-class="{ 'oui-field_error': emailObfuscationRefreshForm.$submitted && !emailObfuscationRefreshForm.$valid }">
+            <oui-checkbox
+                data-ng-repeat="contact in $ctrl.contactTypes track by $index"
+                data-on-change="$ctrl.updateRegeneration(modelValue, contact)"
+                data-required="$ctrl.contactsToRegenerate.length === 0">
+                <span data-translate="{{:: 'domain_email_obfuscation_contact_' + contact }}"></span>
+            </oui-checkbox>
+            <div class="oui-field__error" data-ng-if="emailObfuscationRefreshForm.$submitted && !emailObfuscationRefreshForm.$valid">
+                <span role="alert">
+                    <span class="oui-icon oui-icon-error" aria-hidden="true"></span>
+                    <span data-translate="domain_email_obfuscation_contact_mandatory"></span>
+                </span>
+            </div>
+        </div>
+
+        <oui-button
+            data-variant="primary"
+            type="submit">
+            <span data-translate="domain_email_obfuscation_regenerate"></span>
+        </oui-button>
+    </form>
+</div>
