@@ -358,10 +358,16 @@ export default class DomainTabGeneralInformationsCtrl {
 
   getRules() {
     this.loading.whoIs = true;
-    return this.OvhApiDomainRules.EmailsObfuscation().v6().query({
-      serviceName: this.domain.name,
-    }).$promise
-      .then((obfuscationRules) => {
+    return this.$q.all({
+      obfuscationRules: this.OvhApiDomainRules.EmailsObfuscation().v6().query({
+        serviceName: this.domain.name,
+      }).$promise,
+      optinRules: this.OvhApiDomainRules.Optin().v6().query({
+        serviceName: this.domain.name,
+      }).$promise,
+    })
+      .then(({ obfuscationRules, optinRules }) => {
+        this.isWhoisOptinAllowed = !_.isEmpty(optinRules);
         this.canObfuscateEmails = !_.isEmpty(obfuscationRules);
       })
       .catch(() => this.Alerter.error(this.$translate.instant('domain_dashboard_whois_error')))
