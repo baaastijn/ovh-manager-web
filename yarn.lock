@@ -7663,10 +7663,10 @@ ovh-angular-toaster@ovh-ux/ovh-angular-toaster#^0.8.0:
   version "0.8.0"
   resolved "https://codeload.github.com/ovh-ux/ovh-angular-toaster/tar.gz/06d24889e94b8d816afee8e94185697cf68f2338"
 
-ovh-api-services@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/ovh-api-services/-/ovh-api-services-6.1.2.tgz#b442f306fc77e01aaa2a3b515e1f3c32e3e73c4b"
-  integrity sha512-v8XtPLwVVEnDX2C2t3tEWCAJo6pj3NE2pupir4z8ms4KW228prTWk68qPPvIAs0N9AJ/UR0ubXSn+2BiCKf1uQ==
+ovh-api-services@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/ovh-api-services/-/ovh-api-services-6.7.0.tgz#b65fa6c22e2d4e37100f5747e57f96d929cee446"
+  integrity sha512-r7LBjFBIJvpPQrI+r95nUsW57wGfLt+b9yhnLRE6/iuC5ga0g+0CJuIuD7m5U5vjMbfL+EyyQkF/MsKSVn2fAA==
   dependencies:
     lodash "^3.10.1"
 
