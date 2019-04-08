@@ -105,6 +105,7 @@
     "moment": "^2.16.0",
     "ng-ckeditor": "^2.0.5",
     "ng-file-upload": "^12.0.4",
+    "ng-ovh-chatbot": "https://github.com/ovh-ux/ng-ovh-chatbot#feat/revamp",
     "ng-slide-down": "TheRusskiy/ng-slide-down#^1.0.0",
     "office-ui-fabric-react": "^4.35.2",
     "ovh-angular-actions-menu": "ovh-ux/ovh-angular-actions-menu#^3.0.0",

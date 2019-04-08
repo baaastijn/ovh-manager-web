@@ -7162,6 +7162,12 @@ ng-file-upload@^12.0.4:
   resolved "https://registry.yarnpkg.com/ng-file-upload/-/ng-file-upload-12.2.13.tgz#01800f3872e526f95310f8477e99e4f12d0d8d14"
   integrity sha1-AYAPOHLlJvlTEPhHfpnk8S0NjRQ=
 
+"ng-ovh-chatbot@https://github.com/ovh-ux/ng-ovh-chatbot#feat/revamp":
+  version "1.0.4"
+  resolved "https://github.com/ovh-ux/ng-ovh-chatbot#b61b2eb2b6fd4a585054084568a88a137f810c86"
+  dependencies:
+    lodash "^4.17.11"
+
 ng-slide-down@TheRusskiy/ng-slide-down#^1.0.0:
   version "1.2.0"
   resolved "https://codeload.github.com/TheRusskiy/ng-slide-down/tar.gz/efdb323572486b7922ae46a638f153c8d5ee9a2e"
