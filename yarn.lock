@@ -1046,10 +1046,9 @@
   dependencies:
     lodash "^4.17.11"
 
-"@ovh-ux/ng-ovh-web-universe-components@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@ovh-ux/ng-ovh-web-universe-components/-/ng-ovh-web-universe-components-3.0.0.tgz#38ca5cf13501a156ada390f8a1d9e39e705076d8"
-  integrity sha512-8vr8c6XoSWvqU6k0gPh6skFbYi3GUydq2RhPltotNocgg6eSwHn/XK9h4Ruc4ntRJr+V8c5cD1veUnQXIkjnFA==
+"@ovh-ux/ng-ovh-web-universe-components@git+https://github.com/ovh-ux/ng-ovh-web-universe-components.git#feat/service-status-component":
+  version "2.0.0"
+  resolved "git+https://github.com/ovh-ux/ng-ovh-web-universe-components.git#a6a8b486e8e381c1f1e9b221cd32f7f0fa55cbde"
   dependencies:
     bootstrap "^3.3.7"
     ovh-ui-kit "^2.22.0"
@@ -7653,6 +7652,11 @@ ovh-angular-responsive-tabs@ovh-ux/ovh-angular-responsive-tabs#^4.0.0:
 ovh-angular-sidebar-menu@ovh-ux/ovh-angular-sidebar-menu#^7.2.2:
   version "7.2.2"
   resolved "https://codeload.github.com/ovh-ux/ovh-angular-sidebar-menu/tar.gz/e7531945333ebcad5945b8ede9609d94d2f42b3e"
+
+ovh-angular-swimming-poll@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ovh-angular-swimming-poll/-/ovh-angular-swimming-poll-3.0.0.tgz#496ccae4c8edbfd04719b05fe99fb98c00b1c78f"
+  integrity sha1-SWzK5Mjtv9BHGbBf6Z+5jACxx48=
 
 ovh-angular-tail-logs@^1.1.1:
   version "1.1.1"
